@@ -10,7 +10,7 @@ font-family:sans-serif;
   width:90%;
     margin:auto;
   height:120px;
-  line-height:120px;
+  line-height:50px;
   background:#417aa8;
   color:#FFF;
 }
@@ -41,3 +41,4 @@ background-color:#417aa8;
   color#FFF
   text-decoration:none;
 }
+
