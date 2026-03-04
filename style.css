@@ -22,7 +22,7 @@ font-family:sans-serif;
 .menu{
 background-color:#417aa8;
   height:50px;
-  line-height:50px;
+  line-height:10px;
   position:relative;
   width:90%;
   margin:0 auto;
@@ -41,4 +41,5 @@ background-color:#417aa8;
   color#FFF
   text-decoration:none;
 }
+
 
