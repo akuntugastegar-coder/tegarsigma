@@ -9,7 +9,7 @@ font-family:sans-serif;
 .header{
   width:90%;
     margin:auto;
-  height:120px;
+  height:10px;
   line-height:10px;
   background:#417aa8;
   color:#FFF;
@@ -21,7 +21,7 @@ font-family:sans-serif;
 
 .menu{
 background-color:#417aa8;
-  height:50px;
+  height:10px;
   line-height:10px;
   position:relative;
   width:90%;
@@ -41,6 +41,7 @@ background-color:#417aa8;
   color#FFF
   text-decoration:none;
 }
+
 
 
 
