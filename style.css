@@ -1,89 +1,91 @@
-body{
-  background:#acd1f2;
-  color:#333333;
-  width:100%;
-  font-family:sans-serif;
-  margin:0 auto;
+body {
+  background: #acd1f2;
+  color: #333;
+  font-family: sans-serif;
+  margin: 0;
 }
 
-.header{
-  width:90%;
-  margin:auto;
-  height:50px;
-  line-height:50px;
-  background:#417aa8;
-  color:#FFF;
-}
-  
-.jarak{
-  padding:0 2pc;
+/* HEADER */
+.header {
+  width: 90%;
+  margin: auto;
+  height: 50px;
+  line-height: 50px;
+  background: #417aa8;
+  color: #fff;
 }
 
-.menu{
-  background-color:#417aa8;
-  height:50px;
-  line-height:50px;
-  position:relative;
-  width:90%;
-  margin:0 auto;
+/* SPACING */
+.jarak {
+  padding: 0 20px;
 }
 
-.menu ul{
-  list-style:none;
+/* MENU */
+.menu {
+  background-color: #417aa8;
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden; /* penting */
 }
 
-.menu ul li a{
-  float:left;
-  width:50px;
-  display:block;
-  text-align:center;
-  color:#FFF;
-  text-decoration:none;
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.content{
-  width:90%;
-  margin:auto;
-  height:420px;
-  padding:0.1px;
-  background:#fff;
-  color:#333;
+.menu ul li {
+  float: left;
 }
 
-.border{
-  border:2px solid #4887b9;
-  margin-top:1pc;
-  padding-bottom:1pc;
-  padding-left:2pc;
-  padding-right:2pc;
+.menu ul li a {
+  display: block;
+  padding: 0 15px;
+  color: #fff;
+  text-decoration: none;
 }
 
-.kiri{
-  width:70%;
-  float:left;
-  margin:auto;
-  background:#fff;
-  height:420px;
+/* CONTENT */
+.content {
+  width: 90%;
+  margin: auto;
+  background: #fff;
+  overflow: hidden; /* penting supaya float rapi */
+  padding: 20px 0;
 }
 
-.kanan{
-  width:30%;
-  float:left;
-  margin:auto;
-  background:#fff;
-  height:420px;
+/* KIRI */
+.kiri {
+  width: 65%;
+  float: left;
 }
 
-.undecor{
-  text-decoration:none;
+/* KANAN */
+.kanan {
+  width: 30%;
+  float: right;
 }
 
-.footer{
-  width:90%;
-  margin:auto;
-  height:40px;
-  line-height:40px;
-  background:#417aa8;
-  color:#fff;
-  margin-bottom:1pc;
+/* BOX */
+.border {
+  border: 2px solid #4887b9;
+  margin-top: 15px;
+  padding: 15px;
+}
+
+/* LINK */
+.undecor {
+  text-decoration: none;
+}
+
+/* FOOTER */
+.footer {
+  width: 90%;
+  margin: 20px auto;
+  height: 40px;
+  line-height: 40px;
+  background: #417aa8;
+  color: #fff;
+  text-align: center;
+  clear: both; /* WAJIB */
 }
